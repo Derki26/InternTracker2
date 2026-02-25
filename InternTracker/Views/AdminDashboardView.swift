@@ -7,7 +7,7 @@ struct AdminDashboardView: View {
     var body: some View {
         List {
             Section("Admin") {
-                NavigationLink("Interns Directory") {
+                NavigationLink("Intern Directory") {
                     InternsDirectoryView()
                 }
 
